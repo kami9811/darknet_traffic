@@ -1,0 +1,1 @@
+./darknet detector recall ./cfg/obj.data ./cfg/*.cfg *.weights

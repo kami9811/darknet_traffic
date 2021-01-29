@@ -1,0 +1,10 @@
+in pytorch-yolo-v3
+
+以下を準拠するものに書き換え
+-----------------------------------------
+num_classes = 1
+classes = load_classes('data/obj.names')
+-----------------------------------------
+
+python detect.py --images 対象画像ファイル --det 保存ディレクトリ \
+--cfg .cfgファイル --weights .weightsファイル --reso 解像度
